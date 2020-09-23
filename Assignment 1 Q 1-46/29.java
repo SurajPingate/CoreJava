@@ -19,6 +19,7 @@
          for(int x[] : arr){
              for(int y : x){
                  count1++;
+                  
              }
              count++;
          }

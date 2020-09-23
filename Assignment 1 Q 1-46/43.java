@@ -20,14 +20,6 @@ class OneBHK{
 	int hallArea;
 	double price;
 	
-	public double getPrice() {
-		return price;
-	}
-
-	public void setPrice(double price) {
-		this.price = price;
-	}
-	
 	OneBHK(){
 		this.roomArea=0;
 		this.hallArea=0;
@@ -39,6 +31,14 @@ class OneBHK{
 		this.roomArea=roomArea;
 		this.hallArea=hallArea;
 		this.price=price;
+	}
+
+	public double getPrice() {
+		return price;
+	}
+
+	public void setPrice(double price) {
+		this.price = price;
 	}
 	
 	void show(){

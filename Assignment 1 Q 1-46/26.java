@@ -4,7 +4,7 @@
 
  class SumArray{
      public static void main(String args[]){
-         int sum=0;
+        int sum=0;
         int a[] = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17};
 		int b[] = {4,5,6,45,65,95,3,0,4,5,6,7,8,9,2,2,1};
         int c[] = {8,9,5,8,7,9,5,6,3,1,2,3,5,7,8,8,5};

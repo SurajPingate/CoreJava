@@ -51,7 +51,7 @@ class StudentDemo45{
 
            }
 
-               for(int i = 0 ; i<10 ; i++){	
+               for(int i = 0 ; i<s1.length; i++){	
 
                    if(s1[i].score >=0 && s1[i].score <=50){
                        System.out.println("Category one score [0-50]");

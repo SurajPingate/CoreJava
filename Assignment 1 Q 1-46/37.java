@@ -10,15 +10,18 @@ Create another class PersonDemo ( main class ) that demonstrates the functionali
      int age;
      String name;
 
+     Person(){
+         age = 18;
+     }
+
     void getData(String name, int age){
          this.name = name;
          this.age = age;
      }
 
      void getData(String name){
-        int age = 18;
         this.name = name;
-        System.out.println("Name :"+name+" Age :"+age);
+        // System.out.println("Name :"+name+" Age :"+age);
      }
 
      void showData(){
@@ -30,10 +33,12 @@ Create another class PersonDemo ( main class ) that demonstrates the functionali
  class PersonDemo{
      public static void main(String[] args) {
          Person p = new Person();
+         Person p1 = new Person();
 
          p.getData("Suraj",25);
          p.showData();
          
-         p.getData("Suraj");
+         p1.getData("Suraj");
+         p1.showData();
      }
  }

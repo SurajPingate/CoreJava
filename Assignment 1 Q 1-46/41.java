@@ -13,7 +13,6 @@ class ThisConst{
 }
 class ThisDemo{
 	public static void main(String args[]){
-		ThisConst t1 = new ThisConst(50);
-		
+		ThisConst t1 = new ThisConst(50);	
 	}
 }
