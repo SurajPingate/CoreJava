@@ -7,7 +7,7 @@ public class Uppercase {
 
 	public static void main(String[] args) {
 		
-		String str="akshay nemade";
+		String str="Suraj Pingate";
 		
 		String s1[]=str.split(" ");  
 	    String FinalAns="";  
